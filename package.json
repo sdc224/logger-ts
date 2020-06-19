@@ -12,6 +12,11 @@
 	"engines": {
 		"node": ">=10"
 	},
+	"files": [
+		"build",
+		"@types",
+		"README.md"
+	],
 	"scripts": {
 		"clean": "rimraf coverage build tmp",
 		"build": "tsc -p tsconfig.release.json",
