@@ -1,6 +1,6 @@
 {
 	"name": "@sdc224/logger-ts",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"private": false,
 	"description": "A Logger in Typescript",
 	"author": {
@@ -47,6 +47,6 @@
 	},
 	"publishConfig": {
 		"access": "public",
-		"registry": "https://registry.npmjs.org/"
+		"registry": "https://npm.pkg.github.com/"
 	}
 }
