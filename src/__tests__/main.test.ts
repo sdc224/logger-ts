@@ -1,4 +1,4 @@
-import logging from "../src";
+import logging from "..";
 
 describe("logger functions", () => {
 	logging
