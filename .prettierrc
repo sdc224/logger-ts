@@ -1,12 +1,21 @@
 {
-  "singleQuote": true,
-  "trailingComma": "all",
-  "overrides": [
-    {
-      "files": "*.ts",
-      "options": {
-        "parser": "typescript"
-      }
-    }
-  ]
+	"singleQuote": false,
+	"useTabs": true,
+	"tabWidth": 4,
+	"trailingComma": "all",
+	"overrides": [
+		{
+			"files": "*.ts",
+			"options": {
+				"parser": "typescript"
+			}
+		},
+		{
+			"files": "*.md",
+			"options": {
+				"useTabs": false,
+				"tabWidth": 2
+			}
+		}
+	]
 }

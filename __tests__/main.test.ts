@@ -1,13 +1,13 @@
-import { greeter } from '../src/main';
+import { greeter } from "../src";
 
-describe('greeter function', () => {
-  const name = 'John';
+describe("greeter function", () => {
+	const name = "John";
 
-  const p: string = greeter(name);
-  const hello = p;
+	const p: string = greeter(name);
+	const hello = p;
 
-  // Assert greeter result
-  it('greets a user with `Hello, {name}` message', () => {
-    expect(hello).toBe(`Hello, ${name}`);
-  });
+	// Assert greeter result
+	it("greets a user with `Hello, {name}` message", () => {
+		expect(hello).toBe(`Hello, ${name}`);
+	});
 });
