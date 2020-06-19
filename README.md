@@ -35,10 +35,28 @@ To start, just click the **[Use template][repo-template-action]** link (or the g
 
 To clone the repository use the following commands:
 
-```sh
-git clone https://github.com/jsynowiec/node-typescript-boilerplate
-cd node-typescript-boilerplate
+```bash
+git clone https://github.com/sdc224/logger-ts
+```
+
+### Installation
+
+First go to the repo directory
+
+```bash
+cd logger-ts
+```
+
+For npm lovers
+
+```bash
 npm install
+```
+
+For yarn lovers
+
+```bash
+yarn
 ```
 
 ### Download latest release
@@ -46,8 +64,8 @@ npm install
 Download and unzip current `master` branch or one of tags:
 
 ```sh
-wget https://github.com/jsynowiec/node-typescript-boilerplate/archive/master.zip -O node-typescript-boilerplate.zip
-unzip node-typescript-boilerplate.zip && rm node-typescript-boilerplate.zip
+wget https://github.com/sdc224/logger-ts/archive/master.zip -O logger-ts.zip
+unzip logger-ts.zip && rm logger-ts.zip
 ```
 
 ## Available Scripts
