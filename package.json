@@ -1,9 +1,9 @@
 {
-  "name": "node-typescript-boilerplate",
-  "version": "0.0.0",
-  "description": "Minimalistic boilerplate to quick-start Node.js development in TypeScript.",
+  "name": "logger-ts",
+  "version": "1.0.0",
+  "description": "A Logger in Typescript",
   "engines": {
-    "node": ">= 12.13 <13"
+    "node": ">=10"
   },
   "devDependencies": {
     "@types/jest": "~26.0.0",
@@ -28,8 +28,12 @@
     "test": "jest --coverage",
     "test:watch": "jest --watch"
   },
-  "author": "Jakub Synowiec <github@jakubsynowiec.info>",
-  "license": "Apache-2.0",
+  "author": {
+    "name": "Sourodeep Chatterjee",
+    "email": "sourodeep224@outlook.com",
+    "url": "https://sdcworld.visualstudio.com"
+  },
+  "license": "MIT",
   "dependencies": {
     "tslib": "~2.0.0"
   }
