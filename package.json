@@ -42,7 +42,9 @@
 		"test": "jest --coverage",
 		"test:watch": "jest --watch"
 	},
-	"dependencies": {},
+	"dependencies": {
+		"tslib": "^2.0.0"
+	},
 	"devDependencies": {
 		"@types/jest": "26.0.0",
 		"@types/node": "12.12.47",
