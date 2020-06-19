@@ -2,8 +2,26 @@
 	"name": "@sdc224/logger-ts",
 	"version": "1.0.0",
 	"description": "A Logger in Typescript",
+	"author": {
+		"name": "Sourodeep Chatterjee",
+		"email": "sourodeep224@outlook.com",
+		"url": "https://sdcworld.visualstudio.com"
+	},
+	"license": "MIT",
 	"engines": {
 		"node": ">=10"
+	},
+	"scripts": {
+		"clean": "rimraf coverage build tmp",
+		"build": "tsc -p tsconfig.release.json",
+		"build:watch": "tsc -w -p tsconfig.release.json",
+		"lint": "eslint . --ext .ts",
+		"pretty": "cross-env prettier --ignore-path .eslintignore --write '**/*.{js,ts,json,yml}'",
+		"test": "jest --coverage",
+		"test:watch": "jest --watch"
+	},
+	"dependencies": {
+		"tslib": "2.0.0"
 	},
 	"devDependencies": {
 		"@types/jest": "26.0.0",
@@ -20,23 +38,5 @@
 		"ts-jest": "26.1.0",
 		"tsutils": "3.17.1",
 		"typescript": "3.9.5"
-	},
-	"scripts": {
-		"clean": "rimraf coverage build tmp",
-		"build": "tsc -p tsconfig.release.json",
-		"build:watch": "tsc -w -p tsconfig.release.json",
-		"lint": "eslint . --ext .ts,.tsx",
-		"pretty": "cross-env prettier --ignore-path .eslintignore --write '**/*.{js,jsx,ts,tsx,json,yml}'",
-		"test": "jest --coverage",
-		"test:watch": "jest --watch"
-	},
-	"author": {
-		"name": "Sourodeep Chatterjee",
-		"email": "sourodeep224@outlook.com",
-		"url": "https://sdcworld.visualstudio.com"
-	},
-	"license": "MIT",
-	"dependencies": {
-		"tslib": "2.0.0"
 	}
 }
