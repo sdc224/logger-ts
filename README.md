@@ -2,10 +2,10 @@
 [![Node.js version][nodejs-badge]][nodejs]
 [![MIT][license-badge]][license]
 [![Build Status - Travis][travis-badge]][travis-ci]
-[![Build Status - GitHub Actions][gha-badge]][gha-ci]
+[![GitHub Actions][gha-badge]][gha-ci]
 [![Sponsor][sponsor-badge]][sponsor]
 
-# node-typescript-boilerplate
+# logger-ts
 
 👩🏻‍💻 Developer Ready: A comprehensive template. Works out of the box for most [Node.js][nodejs] projects.
 
@@ -80,7 +80,7 @@ Licensed under the MIT. See the [LICENSE](https://github.com/sdc224/logger-ts/bl
 [nodejs]: https://nodejs.org/dist/latest-v12.x/docs/api/
 [travis-badge]: https://travis-ci.org/sdc224/logger-ts.svg?branch=master
 [travis-ci]: https://travis-ci.org/sdc224/logger-ts
-[gha-badge]: https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2Fsdc224%2Flogget-ts%2Fbadge&style=flat
+[gha-badge]: https://github.com/sdc224/logger-ts/workflows/GitHub%20Actions/badge.svg
 [gha-ci]: https://github.com/sdc224/logger-ts/actions
 [typescript]: https://www.typescriptlang.org/
 [typescript-39]: https://www.typescriptlang.org/docs/handbook/release-notes/typescript-3-9.html
