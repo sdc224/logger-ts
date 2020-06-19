@@ -1,5 +1,5 @@
 {
-	"name": "logger-ts",
+	"name": "@sdc224/logger-ts",
 	"version": "1.0.0",
 	"description": "A Logger in Typescript",
 	"engines": {
