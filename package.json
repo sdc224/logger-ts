@@ -44,5 +44,9 @@
 		"ts-jest": "26.1.0",
 		"tsutils": "3.17.1",
 		"typescript": "3.9.5"
+	},
+	"publishConfig": {
+		"access": "public",
+		"registry": "https://registry.npmjs.org/"
 	}
 }
