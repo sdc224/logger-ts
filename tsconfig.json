@@ -3,6 +3,8 @@
 		"target": "es6",
 		"module": "commonjs",
 		"moduleResolution": "node",
+		"declaration": true,
+		"declarationDir": "src/@types",
 		"allowSyntheticDefaultImports": true,
 		"allowJs": true,
 		"importHelpers": true,
