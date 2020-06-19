@@ -1,6 +1,7 @@
 {
 	"name": "@sdc224/logger-ts",
 	"version": "1.0.0",
+	"private": false,
 	"description": "A Logger in Typescript",
 	"author": {
 		"name": "Sourodeep Chatterjee",
