@@ -58,7 +58,7 @@
 		"ts-jest": "26.1.0",
 		"tsutils": "3.17.1",
 		"typescript": "3.9.5",
-		"yarn-or-npm": "^3.0.1"
+		"yarn-or-npm": "3.0.1"
 	},
 	"publishConfig": {
 		"access": "public",
