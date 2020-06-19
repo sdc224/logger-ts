@@ -8,6 +8,10 @@
 		"email": "sourodeep224@outlook.com",
 		"url": "https://sdcworld.visualstudio.com"
 	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/sdc224/logger-ts.git"
+	},
 	"license": "MIT",
 	"engines": {
 		"node": ">=10"
