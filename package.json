@@ -59,7 +59,7 @@
 		"rimraf": "3.0.2",
 		"ts-jest": "26.1.1",
 		"tsutils": "3.17.1",
-		"typescript": "3.9.5",
+		"typescript": "3.9.6",
 		"yarn-or-npm": "3.0.1"
 	},
 	"publishConfig": {
